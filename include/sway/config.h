@@ -109,6 +109,7 @@ struct input_config {
 	const char *input_type;
 
 	int accel_profile;
+	float *calibration_matrix;
 	int click_method;
 	int drag;
 	int drag_lock;
